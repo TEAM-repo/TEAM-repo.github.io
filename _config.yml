@@ -1,1 +1,15 @@
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
 remote_theme: y7kim/agency-jekyll-theme
+
+github_url: "https://github.com/TEAM-repo/TEAM-repo.github.io"
+
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: default
