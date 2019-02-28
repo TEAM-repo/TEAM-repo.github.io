@@ -1,17 +1,7 @@
-plugins:
-  - jekyll-remote-theme
-  - jekyll-include-cache
-
-remote_theme: y7kim/agency-jekyll-theme
-
-github_url: "https://github.com/TEAM-repo/TEAM-repo.github.io"
-
-
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      layout: default
-
+title: "Teaching Experiential Action-based Materials (TEAM)"
+description: "http://team-repo.github.io"
+show_downloads: false
+google_analytics:
 theme: jekyll-theme-cayman
+
+materials_repo: "https://github.com/TEAM-repo/TEAM-repo-materials/blob/master/"
