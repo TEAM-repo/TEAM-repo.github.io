@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Teaching Experiential Action-based Materials (TEAM)"
 ---
 
 # Welcome!
