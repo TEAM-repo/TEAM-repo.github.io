@@ -1,5 +1,7 @@
 title: "Teaching Experiential Action-based Materials (TEAM)"
-description: "http://team-repo.github.io"
+description: "Open source course materials for teaching teamwork, reflection, and project management"
+github.repository_url: "team-repo.github.io"
+github.is_project_page: true
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
