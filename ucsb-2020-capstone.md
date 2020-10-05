@@ -38,8 +38,9 @@ Some of Slack's helpful features include:
 * reply to a message in a thread to make it easier to follow a specific discussion (esp. when discussing different topics) and keep the relevant information in the same thread
 * tagging specific team members (using `@username`) to get their attention
 * you can see all conversations that you were tagged in using the `@ Mentions and reactions` icon at the top left (above the list of channels)
-* it is helpful to use the "Save" (bookmark icon) for any messages that you want a quick access: hover over the message and select that icon in the menu that pops-up on the right
-* on the top right side of the app, under your profile picture, is an "info icon": there you can find any of the "pinned" conversations
+* you can also save/pin conversations for easy access
+    * if you hover over a message, you can click the bookmark icon (that says "Save"); it will add the note to your saved items -- on the top _left_ side of the app, you will get a new "Saved items" menu; 
+    * if you click on the vertical ellipses (the three dots) that show up when you hover over the note (to the right of the "Save" bookmark icon), you'll get a menu of options; click "Pin to channel", then to find the pinned note, go to the top right side of the app, under your profile picture: click on the “info icon” :information_source:: there you can find any of the “pinned” conversations.
 
 Google Docs/Spreadsheets are another set of tools that can help the team stay organized by keeping track of tasks, progress, and upcoming deadlines.
 
