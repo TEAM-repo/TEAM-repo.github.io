@@ -23,10 +23,10 @@ Strongly recommended:
 Once you are assigned into a team, we recommend that you select a **Project Manager (PM)** who will be in charge of organizing the team and communicating with your team's liaison/client. The PM's expectations and responsibilities are listed here: [pm_expectations.md]({{site.materials_repo}}pm_expectations.md).
 
 Additional roles that we recommend for your team to consider:
-* tester: responsible for verifying that the project is reproducible 
-* documenter: responsible for making sure that the workflow and the decisions are well-documented
-* domain expert: while everyone on the team should have some basic understanding of the domain, it might be helpful to have someone who can dive deeper into additional articles/literature to help the team understand the background of the project/field
-* developer / scientist: responsible for implementing the project, developing and testing models, communicating results
+* **tester**: responsible for verifying that the project is reproducible 
+* **documenter**: responsible for making sure that the workflow and the decisions are well-documented
+* **domain expert**: while everyone on the team should have some basic understanding of the domain, it might be helpful to have someone who can dive deeper into additional articles/literature to help the team understand the background of the project/field
+* **developer / scientist**: responsible for implementing the project, developing and testing models, communicating results
 
 ## Team Communication
 
@@ -47,7 +47,7 @@ Google Docs/Spreadsheets are another set of tools that can help the team stay or
 
 In Agile methodology (a software development model), teams run through **daily stand-ups**: teammates stand up in a room together and provide a quick update addressing the following three points:
 * what I worked on / finished yesterday
-* what is my today's task
+* today's task
 * obstacles / blocks / help that I need.
 
 The reason for standing up is to keep the meeting quick. 
@@ -91,13 +91,10 @@ You won't be able to share these changes with your teammates using git alone, an
 **GitHub** is a web service, a "cloud" platform that hosts your projects in repositories and allows you to share your repos with the world.
 There are alternative solutions to GitHub, such as GitLab and BitBucket, but they are all designed to let you `push` your local changes to the cloud to enable backup, sharing, and collaboration.
 
+Here's a GitHub Basics Tutorial - How to Use GitHub <https://youtube.com/watch?v=x0EYpi38Yp4>.
 
 
-
-## Plan your project
-
-[project_plan.md]({{site.materials_repo}}project_plan.md):  A scaffolding to help plan the project and provide the structure for the final write-up (overall project goals, the solution to the client’s problem and how it fits the client’s needs, how the team will accomplish this solution, and specific tasks for this phase).
----
+ ---------
 
 If you have any questions or suggestions, don't hesitate to reach out to me via ykk@ucsb edu.
 
