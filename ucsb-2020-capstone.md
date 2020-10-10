@@ -150,14 +150,14 @@ Navigate (using `cd`) to the directory that you were working in.
 
 If you are on the Terminal, I'd recommend opening it using the command-line editor.
 
-* Open the `.gitignore` file and write `.DS_Store` at the top of the file.
+* Open the `.gitignore` file and write `.DS_Store` at the top of the `.gitignore` file.
 * Save the file.
 * Verify that your changes are detected by running `git status`. It tells you which files you have modified. 
-   * If the notebook that you created is "red" in the "Untracked files" category, make git aware that it needs to keep track of it by adding it to the notebook.
+   * If the file that you created is "red" in the "Untracked files" category, make git aware that it needs to keep track of it by adding it to the notebook.
    * Add the changes by running `git add .gitignore`
 * See the difference by running `git status` and make sure that only the files you intended to change are “green”.
 * Commit your changes `git commit -m "Added .DS_Store to .gitignore"`
-* Make your change show up on the github repo website by pushing to the repo using `git push` (note: not including `origin <branchname>` after `git push` defaults to `origin master`)
+* Make your change show up on the github repo website by pushing to the repo using `git push` (note: not including `origin <branchname>` after `git push` defaults to `origin master`).
 
 That was a great contribution, however, it now lives in _your fork_ and not in the main `PROJECT_REPO`. 
 Nobody from your team has access to it.
@@ -192,7 +192,7 @@ Switch to the Terminal window.
 
 Navigate (using `cd`) to the directory that you were working in.
 
-Verify that your changes are detected by running `git status`. It tells you which files you have modified. 
+Verify that your changes are detected by running `git status`. It tells you which files you have modified and whether there are untracked files. 
 
 If the notebook that you created is "red" in the "Untracked files" category, make git aware that it needs to keep track of it by adding it to the notebook.
 
@@ -213,14 +213,18 @@ git push
 
 If there are merge conflicts, you can save your version by running `git stash` or renaming it and then `git pull` again.
 
+---------
 
+Congratulations! You made it to the end of this guide.
+
+If you would like us to add or correct anything, feel free to [edit this guide on GitHub](https://github.com/TEAM-repo/TEAM-repo.github.io/blob/master/ucsb-2020-capstone.md) and submit a Pull Request from your forked repo.
 
 ---------
 
 If you have any questions or suggestions, don't hesitate to reach out to me via ykk@ucsb edu.
 
-These materials are released under the CC BY 4.0 by Yekaterina Kharitonova. For attribution, please reference the paper:
+These materials are released under the CC BY 4.0 by Yekaterina Kharitonova. For attribution, please reference the author or the paper:
 ["Redesigning a Software Development Course as a Preparation for a Capstone: An Experience Report"](https://dl.acm.org/citation.cfm?id=3287498).
 
-Page last updated: Oct 7, 2020
+Page last updated: Oct 10, 2020
 
