@@ -96,6 +96,11 @@ There are alternative solutions to GitHub, such as GitLab and BitBucket, but the
 
 Here's a **GitHub Basics Tutorial - How to Use GitHub** <https://youtube.com/watch?v=x0EYpi38Yp4> to get you started.
 
+You might also find it useful to look over the [Git Tutorial: Get Started with Version Control](https://www.taniarascia.com/getting-started-with-git) 
+and [Command Line Tutorial: Usage in Linux and macOS](https://www.taniarascia.com/how-to-use-the-command-line-for-apple-macos-and-linux/) by Tania Rascia.
+
+------
+------
 ------
 
 To really see the power of GitHub, you need to work with a team. So, let's get started!
