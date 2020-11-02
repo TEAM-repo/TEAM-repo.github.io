@@ -113,13 +113,18 @@ The PM creates the `PROJECT_REPO` using the GitHub interface.
 
 ## Fork the repo
 
-Team members **fork** the `PROJECT_REPO` using the GitHub interface.
+Team members **fork** the `PROJECT_REPO` using the GitHub interface. 
+You can get the `PROJECT_REPO` URL/address by clicking on the green "Code" button on the GitHub's website (you'll likely only need the https URL).
 
-This forked repo has a different URL (i.e., web address) for each team member. We will refer to it as `PROJECT_REPO_FORK`.
+Note that **the _forked_ repo will a different URL** (i.e., web address) for each team member. We will refer to it as a `PROJECT_REPO_FORK`.
 
 ## Clone the (forked) repo
 
 Now that each team member has their own fork (i.e., copy) `PROJECT_REPO_FORK`, which is connected to the main `PROJECT_REPO`, it's time to **clone** the fork to your local computer.
+
+You can get the `PROJECT_REPO_FORK` URL/address by clicking on the green "Code" button on the GitHub's website. 
+
+> To quickly check that you are cloning the correct repo (i.e., the fork, not the main project), look at the name of the repo in the top left portion of the website: it should show `YOUR_GITHUB_USERNAME / PROJECT_REPO` and underneath it should say **"forked from"** and link to the main `PROJECT_REPO` address.
 
 To clone  `PROJECT_REPO_FORK` to your computer, open a Terminal window and type:
 ```
@@ -178,7 +183,8 @@ OK, now that we practiced the simple change in a `.gitignore` file, we can try o
 
 ## Committing changes you make to the notebook
 
-!!! **Every time, before you make any changes**, make sure to bring your files up-to-date by checking if your repo is behind the upstream, using a PR to get the changes and running `git pull` on your computer. 
+> **!!! Every time, _before_ you make any changes** to your code, make sure to bring your files up-to-date by checking if your repo is behind the upstream. If it is (i.e., if there are changes in the main repo that you do not have in your fork), issue a PR to get the changes and run `git pull` on your computer. 
+
 If you run into merge conflicts, the easiest solution is to rename the conflicting notebook and pull it again.
 
 Next, make your changes to the notebook `NOTEBOOK.ipynb`.
@@ -201,7 +207,12 @@ Add the changes from the notebook that you modified by running
 git add NOTEBOOK.ipynb
 ```
 
-See the difference by running `git status` and make sure that only the files you intended to change are “green”.
+> See the difference by running `git status` and make sure that only the files you intended to change are “green”. 
+If you committed something you didn't intend, run `git reset` and it will unstage your files, which you can check by running `git status` again.
+
+> I strongly recommend intentionally committing your changes by explicitly listing a file/files that you want to commit in the `git add` command. Running `git add .` or `git add *` can cause more headache, so I recommend avoiding it.
+
+
 ```
 git commit -m “Message explaining what you changed”
 ```
@@ -221,10 +232,15 @@ If you would like us to add or correct anything, feel free to [edit this guide o
 
 ---------
 
+#### Acknowledgement / Contact Me
+
 If you have any questions or suggestions, don't hesitate to reach out to me via ykk@ucsb edu.
 
-These materials are released under the CC BY 4.0 by Yekaterina Kharitonova. For attribution, please reference the author or the paper:
-["Redesigning a Software Development Course as a Preparation for a Capstone: An Experience Report"](https://dl.acm.org/citation.cfm?id=3287498).
+For attribution, please reference the author and/or the paper:
 
-Page last updated: Oct 10, 2020
+> These materials are released under the CC BY 4.0 by Yekaterina Kharitonova as part of the work on the SIGCSE 2019 paper ["Redesigning a Software Development Course as a Preparation for a Capstone: An Experience Report"](https://dl.acm.org/citation.cfm?id=3287498), <https://github.com/ucsb-ds/f20-fellows-projects.git>.
+
+------
+
+Page last updated: Nov 2, 2020
 
