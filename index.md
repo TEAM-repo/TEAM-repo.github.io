@@ -5,8 +5,43 @@ layout: default
 
 # Welcome!
 
-This repository was first unveiled at SIGCSE 2019 as part of our paper 
+[This website and repository](https://github.com/TEAM-repo/TEAM-repo.github.io) were first unveiled at SIGCSE 2019 as part of the paper 
 ["Redesigning a Software Development Course as a Preparation for a Capstone: An Experience Report"](https://dl.acm.org/citation.cfm?id=3287498).
+
+### Abstract
+Students need a wide variety of skills before they can successfully engage in real-world
+projects with paying customers. Some of these skills, such as the "soft skills" of
+communicating with a non-technical customer and working in a larger team to collaboratively
+develop a project, are generally not present in Computer Science courses. In this
+paper, we discuss our experience teaching these skills and explain the structure of
+our redesigned Software Development course and how it aligns with the Capstone experience.
+The main novelty of our approach is the specific implementation of the rotating project
+manager role and the introduction of the final portfolio reflection. We believe that
+the concepts we introduced during our redesign can be useful to any educator wanting
+to include collaborative project-based work in their courses. To enable faculty to
+apply and enhance these concepts, the resources that we used in this course, which
+include activities, templates, guidelines, rubrics, and questionnaires, are available
+as an open source project at https://team-repo.github.io.
+
+### BiBTeX
+```
+@inproceedings{Kharitonova2019,
+author = {Kharitonova, Yekaterina and Luo, Yi and Park, Jeho},
+title = {Redesigning a Software Development Course as a Preparation for a Capstone: An Experience Report},
+year = {2019},
+isbn = {9781450358903},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3287324.3287498},
+doi = {10.1145/3287324.3287498},
+booktitle = {Proceedings of the 50th ACM Technical Symposium on Computer Science Education},
+pages = {153–159},
+numpages = {7},
+keywords = {teamwork and soft skills, project-based learning (pbl), agile software development},
+location = {Minneapolis, MN, USA},
+series = {SIGCSE '19}
+}
+```
 
 These 
 Teaching 
@@ -17,6 +52,13 @@ Materials
     are intended for instructors who are teaching team-based project courses.
 
 
+## Updates
+
+* In Jan 2020, Claremont McKenna College (CMC) invited Dr. Kharitonova to use these TEAM-repo materials as part of a day-long capstone preparation workshop for their teams.
+* In Nov 2020, Dr. Kharitonova used these TEAM-repo materials to create a quick guide to the [Capstone Resources](https://team-repo.github.io/ucsb-2020-capstone) to provide UCSB Data Science teams with a starting point for collaborative work.
+* In Sep 2021, these materials were used at UCSB as part of the [UCSB Data Science Capstone Preparation Workshop](https://ucsb-ds.github.io/workshop2021/).
+
+Did you use these materials? Do you have any updates? Feel free to let us know by [editing this page](https://github.com/TEAM-repo/TEAM-repo.github.io/edit/master/index.md) and submitting a Pull Request.
 
 ## Course logistics
 
@@ -50,7 +92,7 @@ Each PM submits their team's Poster for peer-review.
 | [functionality.md]({{site.materials_repo}}functionality.md) |  |
 | [code_review.md]({{site.materials_repo}}code_review.md) | Code review (in-class) exercise. |
 | [user_testing.md]({{site.materials_repo}}user_testing.md) |  | 
-| [poster.md]({{site.materials_repo}}poster.md) | At the end of the course, teams put together posters for a [Poster Session](poster_session.md), outlining their work, progress, and achievements.  |
+| [poster.md]({{site.materials_repo}}poster.md) | At the end of the course, teams put together posters for a [Poster Session]({{site.materials_repo}}poster_session.md), outlining their work, progress, and achievements.  |
 | [poster_session.md]({{site.materials_repo}}poster_session.md) |  End-of-the-course celebration where teams present their work, progress, and achievements.  |
 | [handoff.md]({{site.materials_repo}}handoff.md) | A final walk-through with the team to ensure that their repo's README provides a complete overview and instructions for future developers/users. |
 | [sample_README.md]({{site.materials_repo}}{{site.materials_repo}}sample_README.md) | A final walk-through with the team to ensure that their repo's README provides a complete overview and instructions for future developers/users. |
@@ -99,7 +141,7 @@ Created using [Markdown Tables generator](http://www.tablesgenerator.com/markdow
 
 ## Other courses or useful resources
 
-Do not hesitate to edit this list and submit your changes as a Pull Request.
+Do not hesitate to [edit this list](https://github.com/TEAM-repo/TEAM-repo.github.io/edit/master/index.md) and submit your changes as a Pull Request.
 
 * <http://foss2serve.org/index.php/Publications> - references to publications and events that are related to the effort to help students contribute to HFOSS (Humanitarian Free and Open Source Software).
 * <http://foss2serve.org/index.php/POSSE> - POSSE is the Professors' Open Source Software Experience. POSSEs provide professional development for instructors interested in student participation in Humanitarian Free and Open Source Software (HFOSS)
@@ -112,14 +154,14 @@ Do not hesitate to edit this list and submit your changes as a Pull Request.
 
 We welcome contributors and would like to grow the community of educators who are teaching team-based project courses.
 
-To help us update this repo:
+To help us update [this repo](https://github.com/TEAM-repo/TEAM-repo.github.io):
 
 1. Fork it!
 2. Make your changes in a branch: `git checkout -b my-branch`
 3. Commit your changes: `git commit -am 'Added my comments'`
 4. Push to the branch: `git push origin my-branch`
-5. Submit a pull request :D
+5. Submit a [pull request](https://github.com/TEAM-repo/TEAM-repo.github.io/pulls).
 
-You can also do this through GitHub's web interface by clicking the "Edit" icon and submitting a pull request.
+You can also do this through GitHub's web interface by clicking the ["Edit"](https://github.com/TEAM-repo/TEAM-repo.github.io/edit/master/index.md) icon and submitting a pull request.
 
 
